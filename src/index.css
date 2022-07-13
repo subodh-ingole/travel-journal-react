@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  color: #2B283A;
+  background-color: aliceblue;
+  box-sizing: border-box;
+}
+
+
+.location{
+  width: 1rem;
+}
+
+.nav{
+  height: 5.5rem;
+  width: 70rem;
+  background-color: #F55A5A;
+  position: relative;
+}
+
+.heading{
+  color: white;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+}
+
+.card-image{
+  height: 17rem;
+  width: 12.5rem;
+}
+
+.main{
+  display: flex;
+  padding : 2rem;
+  width: 70rem;
+  border: 1px solid black;
+}
+
+.card-text{
+  padding: 1rem 2rem;
+}
+
+.card-subtitle{
+  padding: 1rem 0rem; 
+}
+
+.country{
+  margin-right: 1rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.link{
+  font-size: 1.3rem;
+}
+
+.App{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
 }
